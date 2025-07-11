@@ -1,2 +1,36 @@
-# Modelling_and_Simulation
-You have been asked to step in as a consultant to help a Chinese company (Chifeng Gold) with a large export contract. While the company is building its new refinery in Chifeng, the company has a contract to send every month 2,000 FEU (40ft container) of preprocessed rare earth ore to Hamburg (Germany). The shipping line operates a large cargo vessel every 2 weeks from Tianjin Terminal. As there is only limited storage and transport capacity in Chifeng and on the Chifeng-Tianjin railway line, the plan is to send every working day on average 91 FEU from Chifeng to Tianjin port. Containers will be accumulated in Tianjin port, and around 1,000 FEU will go every other week per ship from Tianjin to Hamburg. The ship takes 58 days at sea and 2.5 days for loading and unloading. The Container transfer in Germany is not a problem. Perform the research as outlined in the steps 1) to 5) and submit a report describing your research under each of the headings and provide the code required in steps 3) to 5).
+Container Transport Simulation Model
+A discrete-event simulation model for optimizing container transport logistics from a Chinese gold mine to Hamburg, Germany. Developed as part of the Modelling and Simulation course at National College of Ireland.
+🎯 Project Overview
+Simulates the transport of 2,000 FEU (40ft containers) monthly through a multi-modal logistics chain:
+
+Route: Gold Mine → Chifeng Terminal → Tianjin Port → Hamburg Port
+Transport Modes: Trucks → Train → Cargo Ships
+Key Constraints: 91 FEUs/day production, 106 FEU train capacity, bi-weekly ships
+
+🔧 Features
+
+Resource Optimization: Determines optimal number of trucks, cranes, and buffer capacity
+Discrete Event Simulation: Built with SimPy framework
+Scenario Analysis: Tests system robustness under production variability
+Comprehensive Visualizations: Network diagrams, utilization heatmaps, performance dashboards
+No External Dependencies: All logging in-memory, no file I/O required
+
+📊 Key Components
+
+Entity Definitions: Container, Truck, Train, Ship entities with state tracking
+Verification Model: 3-container test simulation
+Optimization Engine: Tests 36+ configurations to find optimal resources
+Extended Simulation: 30-day runs with steady-state and variable production
+Performance Analytics: Utilization metrics, buffer analysis, throughput tracking
+
+🛠️ Technologies
+
+Python 3.x
+SimPy (Discrete Event Simulation)
+Pandas, NumPy (Data Analysis)
+Matplotlib, Seaborn, NetworkX (Visualization)
+
+📈 Results
+Successfully handles 91 FEUs/day with optimized resource allocation, achieving monthly target of 2,000 FEUs with minimal buffer requirements.
+
+This description is professional, informative, and gives potential viewers/employers a clear understanding of the project's scope and technical implementation.
