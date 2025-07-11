@@ -10,26 +10,26 @@ Simulates the transport of 2,000 FEU (40ft containers) monthly through a multi-m
 
 ## 🔧 Features <br>
 
-Resource Optimization: Determines optimal number of trucks, cranes, and buffer capacity<br>
-Discrete Event Simulation: Built with SimPy framework<br>
-Scenario Analysis: Tests system robustness under production variability<br>
-Comprehensive Visualizations: Network diagrams, utilization heatmaps, performance dashboards<br>
-No External Dependencies: All logging in-memory, no file I/O required<br>
+* Resource Optimization: Determines optimal number of trucks, cranes, and buffer capacity<br>
+* Discrete Event Simulation: Built with SimPy framework<br>
+* Scenario Analysis: Tests system robustness under production variability<br>
+* Comprehensive Visualizations: Network diagrams, utilization heatmaps, performance dashboards<br>
+* No External Dependencies: All logging in-memory, no file I/O required<br>
 
 ## 📊 Key Components
 
-Entity Definitions: Container, Truck, Train, Ship entities with state tracking<br>
-Verification Model: 3-container test simulation<br>
-Optimization Engine: Tests 36+ configurations to find optimal resources<br>
-Extended Simulation: 30-day runs with steady-state and variable production<br>
-Performance Analytics: Utilization metrics, buffer analysis, throughput tracking
+1. Entity Definitions: Container, Truck, Train, Ship entities with state tracking<br>
+2. Verification Model: 3-container test simulation<br>
+3. Optimization Engine: Tests 36+ configurations to find optimal resources<br>
+4. Extended Simulation: 30-day runs with steady-state and variable production<br>
+5. Performance Analytics: Utilization metrics, buffer analysis, throughput tracking
 <br>
 ## 🛠️ Technologies <br>
 
-Python 3.x<br>
-SimPy (Discrete Event Simulation)<br>
-Pandas, NumPy (Data Analysis)<br>
-Matplotlib, Seaborn, NetworkX (Visualization)<br>
+* Python 3.x<br>
+* SimPy (Discrete Event Simulation)<br>
+* Pandas, NumPy (Data Analysis)<br>
+* Matplotlib, Seaborn, NetworkX (Visualization)<br>
 
 ## 📈 Results <br>
 Successfully handles 91 FEUs/day with optimized resource allocation, achieving monthly target of 2,000 FEUs with minimal buffer requirements.<br>
