@@ -1,5 +1,6 @@
 Container Transport Simulation Model
-A discrete-event simulation model for optimizing container transport logistics from a Chinese gold mine to Hamburg, Germany. Developed as part of the Modelling and Simulation course at National College of Ireland.
+A discrete-event simulation model for optimizing container transport logistics from a Chinese gold mine to Hamburg, Germany. 
+
 🎯 Project Overview
 Simulates the transport of 2,000 FEU (40ft containers) monthly through a multi-modal logistics chain:
 
