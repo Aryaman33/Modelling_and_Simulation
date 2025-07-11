@@ -4,9 +4,9 @@ A discrete-event simulation model for optimizing container transport logistics f
 ## 🎯 Project Overview<br>
 Simulates the transport of 2,000 FEU (40ft containers) monthly through a multi-modal logistics chain:
 
-Route: Gold Mine → Chifeng Terminal → Tianjin Port → Hamburg Port<br>
-Transport Modes: Trucks → Train → Cargo Ships<br>
-Key Constraints: 91 FEUs/day production, 106 FEU train capacity, bi-weekly ships<br>
+* Route: Gold Mine → Chifeng Terminal → Tianjin Port → Hamburg Port<br>
+* Transport Modes: Trucks → Train → Cargo Ships<br>
+* Key Constraints: 91 FEUs/day production, 106 FEU train capacity, bi-weekly ships<br>
 
 ## 🔧 Features <br>
 
