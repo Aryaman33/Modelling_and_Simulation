@@ -1,7 +1,7 @@
 Container Transport Simulation Model
 A discrete-event simulation model for optimizing container transport logistics from a Chinese gold mine to Hamburg, Germany. 
 
-🎯 Project Overview
+🎯 Project Overview /
 Simulates the transport of 2,000 FEU (40ft containers) monthly through a multi-modal logistics chain:
 
 Route: Gold Mine → Chifeng Terminal → Tianjin Port → Hamburg Port
